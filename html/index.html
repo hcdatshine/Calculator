@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>
+		My Calculator 
+	</title>	
+	<link rel="stylesheet" type="text/css" href="../css/index.css">	
+	<link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet"> 	
+</head>
+<body>
+	
+	<div id="calculator">
+		<div class="container">
+			<div>
+				My Calculator
+			</div>	
+
+			<div><input type="text" id="answer" disabled="disabled">
+			</div>
+
+			<div class="clear-both"></div>
+		</div>
+
+		<div class="button-container">
+			<div class="row">
+				<button onclick="ac();">AC</button>
+				<button onclick="ce();">CE</button>
+				<button onclick="pheptinh(5);">%</button>
+				<button onclick="pheptinh(4);">/</button>
+			</div>
+			
+			<div class="row ">
+				<button onclick="number(7);" >7</button>
+				<button onclick="number(8);" >8</button>
+				<button onclick="number(9);" >9</button>
+				<button onclick="pheptinh(3);">*</button>
+			</div>
+			
+			<div class="row">
+				<button onclick="number(4);" >4</button>
+				<button onclick="number(5);" >5</button>
+				<button onclick="number(6);" >6</button>
+				<button onclick="pheptinh(2);">-</button>
+			</div>
+
+			<div class ="row">
+				<button onclick="number(1);" >1</button>
+				<button onclick="number(2);" >2</button>
+				<button onclick="number(3);" >3</button>
+				<button onclick="pheptinh(1);">+</button>
+			</div>
+
+			<div class="row">
+				<button onclick="number(0);" id="button-0">0</button>
+				<button onclick="point();">.</button>
+				<button onclick="equ();">=</button>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="../js/index.js">
+	</script>
+</body>
+</html>
